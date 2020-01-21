@@ -1,17 +1,8 @@
----
-sidebar: false
----
+# open.mp Wiki
 
-# API Documentation
+This repository contains the open.mp wiki site source code and content.
 
-[![Build Status](https://travis-ci.org/openmultiplayer/wiki.svg?branch=master)](https://travis-ci.org/openmultiplayer/wiki)
+The content is written in Markdown and can be found within the `pages` directory.
 
-Documentation for all APIs and server lifecycle/maintenance guides.
-
-## Reference
-
-The reference documents contain a full reference for the entire API including all functions and event callbacks.
-
-[Browse by Tag](tags.md)
-
-[Browse by Category](categories.md)
+The site iteself is built with Next.js and MDX. It's predominantly static and content is generated
+at build-time.
