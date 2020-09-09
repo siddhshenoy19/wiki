@@ -39,6 +39,13 @@ DestroyPickup(pickup); // Example of using the pickup ID
 pickup = 0; // pickup variable needs to be reset to avoid future conflicts
 ```
 
+##Types of pickups
+
+| Type         | Description                                                                       |
+| ------------ | --------------------------------------------------------------------------------- |
+| 0            | Pickup does not always display. If it does get displayed, it doesn't trigger the callback OnPlayerPickUpPickup. |
+| 1            | Is used for scripted action only. It will trigger OnPlayerPickUpPickup every few seconds. |
+
 ## Notes
 
 :::tip
